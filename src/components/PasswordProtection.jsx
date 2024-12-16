@@ -159,7 +159,7 @@ const PasswordProtection = ({ onAuthenticated }) => {
   const [isChecking, setIsChecking] = useState(false);
   const [showSuccess, setShowSuccess] = useState(false);
 
-  const validPasswords = ['trevuj123', 'towhid3d', 'mukut3d'];
+  const validPasswords = ['trevuj123', 'towhid3d', 'mukut3d', 'rids3d'];
 
   const getRandomErrorTheme = () => {
     return errorThemes[Math.floor(Math.random() * errorThemes.length)];
